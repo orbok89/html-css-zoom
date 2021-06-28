@@ -16,8 +16,8 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center ;
-    width: 95%;
-    height: 90%;
+    width: 90%;
+    height: 85%;
 
 }
 .faccia {
@@ -48,9 +48,11 @@ p{
 /* footerr */
 
 .sinistra {
+    display: flex;
+    align-items: center;
     width: 20%;
     height: 80px;
-    background-color: violet;
+
 }
 .destra {
     display: flex;
@@ -58,28 +60,77 @@ p{
     align-items: center;
     width: 20%;
     height: 80px;
-    background-color: violet;
     color: red
 }
 nav {
     display: flex;
     justify-content: space-between;
-    width: 60%;
-    height: 80px;
-    background-color: tomato;
+    width: 50%;
+
 
 }
 footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: rgb(80, 80, 80)
 }
 .menu{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
 .fine{
-    background-color: royalblue;
+    background-color: gray;
     padding: 31px 0;
+}
+.relativo{
+    position: relative;
+}
+.assoluto2{
+    position: absolute;
+    right: -10px;
+    bottom: 20px;
+}
+.menu i{
+    font-size: 30px;
+}
+.pad{
+    padding-right: 35px;
+}
+/* fine footerr */
+
+/* rifiniture */
+#piccolo{
+    font-size: 15px;
+}
+.assoluto1{
+    position: absolute;
+    right: 0px;
+    bottom: 20px;}
+.alto{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    color: white;
+
+}
+.speak{
+    background-color: gray;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.verde{
+    border :3px solid greenyellow
+}
+#blu{
+    color: blue;
+}
+#verde1{
+    color: greenyellow;
 }
