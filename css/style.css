@@ -5,15 +5,44 @@
 }
 main {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 100vw;
     height: calc( 100vh - 80px );
     background-color: black;
 }
 .contenitore{
+    display: flex;
+    flex-wrap: wrap;
     width: 95%;
     height: 90%;
     
     background-color: coral;
 }
+.faccia {
+    position:relative;
+    width: 20%;
+    height: 20%;
+    background-color: brown;
+    border: 1px solid black;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/71uql8CC6oL._AC_SX355_.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.nome {
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.33);
+    color: white;
+
+}
+.freccia-s i,
+.freccia-d i {
+    font-size: 35px;
+    color: gray;
+}
+p{
+    color: white;
+}
+/* fine parte centrale */
