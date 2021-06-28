@@ -11,20 +11,19 @@ main {
     height: calc( 100vh - 80px );
     background-color: black;
 }
-.contenitore{
+.contenitore {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center ;
     width: 95%;
     height: 90%;
-    
-    background-color: coral;
+
 }
 .faccia {
     position:relative;
-    width: 20%;
-    height: 20%;
-    background-color: brown;
-    border: 1px solid black;
+    width: 19%;
+    height: 19%;
     background-image: url("https://images-na.ssl-images-amazon.com/images/I/71uql8CC6oL._AC_SX355_.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -46,3 +45,41 @@ p{
     color: white;
 }
 /* fine parte centrale */
+/* footerr */
+
+.sinistra {
+    width: 20%;
+    height: 80px;
+    background-color: violet;
+}
+.destra {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+    height: 80px;
+    background-color: violet;
+    color: red
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 80px;
+    background-color: tomato;
+
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.fine{
+    background-color: royalblue;
+    padding: 31px 0;
+}
